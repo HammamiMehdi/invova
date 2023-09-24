@@ -1,0 +1,20 @@
+
+/* Earth.css */
+body{
+    overflow: hidden;
+    margin: 100;
+    
+  }
+/* Set a fixed width and height for the #word element */
+#word {
+   
+  }
+  
+  /* Set a fixed width and height for the renderer element */
+  /* Adjust the width and height based on your desired dimensions */
+  canvas {
+    width: 800px;
+    height: 400px;
+    background-color: #003366 !important;
+  }
+  
