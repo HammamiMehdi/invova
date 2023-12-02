@@ -1,16 +1,31 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 import { close, logo, menu } from "../assets";
 import { navLinks } from "../constants";
+import "../components/Styles/navbar.css"; 
+
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
   const [toggle, setToggle] = useState(false);
+  const [entered, setEntered] = useState(false);
+
+  useEffect(() => {
+    // Add the navbar-entered class after the component is mounted
+    setEntered(true);
+  }, []);
+
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar">
-      <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
-
+    <nav
+      className={`w-full flex py-6 justify-between items-center navbar ${
+        entered ? "navbar-entered" : ""
+      }`}
+    >
+      <div className="flex items-center">
+        <img src={logo} alt="hoobank" className="w-[auto] h-[100px]" />
+        <h2 className="font-bold text-[30px] text-white ml-4">INVOVA</h2>
+      </div>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li

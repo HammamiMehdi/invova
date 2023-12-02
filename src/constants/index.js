@@ -6,15 +6,19 @@ export const navLinks = [
     title: "Home",
   },
   {
-    id: "features",
-    title: "Features",
+    id: "Services",
+    title: "Services",
   },
   {
-    id: "product",
-    title: "Product",
+    id: "Technologies",
+    title: "Technologies",
   },
   {
-    id: "clients",
+    id: "Projects",
+    title: "Projects",
+  },
+  {
+    id: "Clients",
     title: "Clients",
   },
 ];
@@ -23,23 +27,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Tailored Solutions",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "We don't believe in one-size-fits-all. Our solutions are crafted to meet the unique needs of your business.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Proven Track Record",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "With a history of successful projects and satisfied clients, we bring a wealth of experience to every partnership.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "Dedicated Support",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Our team is with you every step of the way, providing ongoing support and ensuring your technology investments yield maximum returns.",
   },
 ];
 

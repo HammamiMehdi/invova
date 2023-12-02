@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&family=Titillium+Web:wght@600&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -11,22 +11,38 @@
     #6d6d6d -78.47%,
     #11101d 91.61%
   );
-  --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+  --card-shadow: 0px 20px 100px -10px rgba(21, 60, 214, 0.1);
 }
 
 * {
   scroll-behavior: smooth;
 }
 
+/* YourStyles.module.css */
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.animate-rotation {
+  animation: rotate infinite 10s linear; /* Adjust the duration and timing function as needed */
+}
+
+
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
-    #def9fa 0.89%,
-    #bef3f5 17.23%,
-    #9dedf0 42.04%,
-    #7de7eb 55.12%,
-    #5ce1e6 71.54%,
-    #33bbcf 100%
+    #fddba1 0.89%,
+    #f0be69 17.23%,
+    #F8B133 42.04%,
+    #e59a2a 55.12%,
+    #e57f2a 71.54%,
+    #e56f2a 100%
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -34,6 +50,9 @@
   text-fill-color: transparent;
 }
 
+.bg-full{
+  background-color: #000833;
+}
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
@@ -73,7 +92,7 @@
 }
 
 .bg-discount-gradient {
-  background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
+  background: linear-gradient(125.17deg, #E5AE41 0%, #C4362E 100%);
 }
 
 .box-shadow {
@@ -106,9 +125,12 @@
     transform: translateY(0);
   }
 }
+.bg-feature-card-icon{
+  background-color: #003366;
+}
 
 .feature-card:hover {
-  background: var(--black-gradient);
+  background: linear-gradient(125.17deg, #ffffff5e 0%, #ffffffa5 100%);
   box-shadow: var(--card-shadow);
 }
 
@@ -129,12 +151,12 @@
   filter: blur(123px);
 }
 
-.pink__gradient {
+/* .pink__gradient {
   background: linear-gradient(90deg, #f4c4f3 0%, #fc67fa 100%);
   filter: blur(900px);
-}
+} */
 
-.white__gradient {
+/* .white__gradient {
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
-}
+} */

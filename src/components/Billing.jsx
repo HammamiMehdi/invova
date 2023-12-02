@@ -14,13 +14,11 @@ const Billing = () => (
 
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Easily control your <br className="sm:block hidden" /> billing &
-        invoicing
+      Unleash Possibilities with  <br className="sm:block hidden" /> Our Digital Transformation Expertise
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio
-        aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea
-        placerat.
+      Unlock unparalleled growth and efficiency with <b>Invova</b>'s Digital Transformation services. 
+      Our innovative approach redefines the way businesses operate, seamlessly integrating cutting-edge technologies to propel you into the digital era.
       </p>
 
       <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
