@@ -1,5 +1,6 @@
 import airbnb from "./airbnb.png";
 import bill from "./bill.png";
+import digitalisation from "./digitalisation.jpg";
 import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";
@@ -27,6 +28,7 @@ import people03 from "./people03.png";
 export {
   airbnb,
   bill,
+  digitalisation,
   binance,
   card,
   coinbase,

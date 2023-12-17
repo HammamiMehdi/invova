@@ -23,8 +23,8 @@ const Navbar = () => {
       }`}
     >
       <div className="flex items-center">
-        <img src={logo} alt="hoobank" className="w-[auto] h-[100px]" />
-        <h2 className="font-bold text-[30px] text-white ml-4">INVOVA</h2>
+        <img src={logo} alt="hoobank" className="w-[auto] h-[65px]" />
+        <h2 className="font-bold text-[20px] text-white ml-4">Invova</h2>
       </div>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
