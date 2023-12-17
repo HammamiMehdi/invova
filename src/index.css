@@ -16,22 +16,11 @@
 
 * {
   scroll-behavior: smooth;
+ 
 }
 
-/* YourStyles.module.css */
 
-@keyframes rotate {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
 
-.animate-rotation {
-  animation: rotate infinite 10s linear; /* Adjust the duration and timing function as needed */
-}
 
 
 .text-gradient {

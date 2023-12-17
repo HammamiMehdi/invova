@@ -23,17 +23,17 @@ const CardDeal = () => {
     </div>
 
     <div className={layout.sectionImg}>
-      <div class="card">
-          <div class="card__header">
-            <p class="card__headline">Invova</p>
-            <p class="card__text">Today</p>
+      <div className="card">
+          <div className="card__header">
+            <p className="card__headline">Invova Projects</p>
+            <p className="card__text"> &nbsp;  From 2021</p>
           </div>
 
-          <div class="card__chart">
-            <div class="card__axis">
-              <div class="card__row card__row--top">460</div>
-              <div class="card__row card__row--middle">230</div>
-              <div class="card__row card__row--bottom">0</div>
+          <div className="card__chart">
+            <div className="card__axis">
+              <div className="card__row card__row--top">460</div>
+              <div className="card__row card__row--middle">230</div>
+              <div className="card__row card__row--bottom">0</div>
             </div>
             {/* Generate columns dynamically */}
             {indices.map((index) => (
@@ -42,7 +42,7 @@ const CardDeal = () => {
               </div>
             ))}
         </div>
-        <div class="card__number">460</div>
+        <div className="card__number">460</div>
       </div>
     </div>
     </section>

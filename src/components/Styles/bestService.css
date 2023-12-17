@@ -1,0 +1,67 @@
+
+
+
+.animation-container {
+    position: relative;
+  }
+  
+  .animation-badge {
+    display: block;
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    background: url(https://images.unsplash.com/photo-1669023414162-8b0573b9c6b2)
+      no-repeat 100% 50%;
+    background-size: cover;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 50%;
+    transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+    box-shadow: 0px 0.5rem 1rem rgba(0, 0, 0, 0.75);
+  }
+  
+  .animation-badge:hover {
+    box-shadow: 0px 0.5rem 2rem rgba(0, 0, 0, 0.75);
+    background-position: 0% 50%;
+  }
+  
+  .animation-badge:hover .badge-text {
+    transform: rotate(-45deg) translate(0) rotate(-315deg);
+    background: rgba(54, 47, 152, 0.5);
+    width: 20rem;
+    height: 20rem;
+    letter-spacing: 1rem;
+    line-height: 20rem;
+    margin-top: -10rem;
+    margin-left: -10rem;
+    transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1),
+      letter-spacing 1.5s ease-out;
+  }
+  
+  .animation-badge .badge-text {
+    display: block;
+    position: absolute;
+    line-height: 6rem;
+    text-align: center;
+    letter-spacing: 0.25rem;
+    padding-left: 0.25rem;
+    box-sizing: border-box;
+    font-weight: 400;
+    color: #fafafa;
+    font-family: Roboto, sans-serif;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    background: rgba(54, 47, 152, 1);
+    left: 50%;
+    top: 50%;
+    margin-top: -2.5rem;
+    margin-left: -2.5rem;
+    transform: rotate(-135deg) translate(-5rem) rotate(135deg);
+    box-shadow: 0px 0.3125rem 0.625rem rgba(0, 0, 0, 0.5);
+    transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  }
+  
+  /*****************************************************************/
+
+  

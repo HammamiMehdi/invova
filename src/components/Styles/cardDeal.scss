@@ -43,6 +43,12 @@
 		margin: 0;
 		font-size: .9em;
 		line-height: 1;
+		background: linear-gradient(90deg, rgba(229,51,42,1) 0%, rgba(248,177,51,1) 100%);
+		font-weight: 500;
+		color: #fff;
+		border-radius: 1em;
+		width: 17%;
+		height: 120%;
 	}
 
 	&__chart {
@@ -131,5 +137,6 @@
 		animation: moveUp 1s cubic-bezier(.51, .92, .24, 1);
 		animation-fill-mode: forwards;
 	}
+	
 
 }

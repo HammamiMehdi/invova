@@ -1,0 +1,56 @@
+.section {
+    margin-top : 5em;
+    margin-bottom : 5em;
+}
+.circle {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: radial-gradient(#0067bc, #003366);
+    box-shadow: 0 0 250px #0067bc;
+    animation: animate 15s ease-in-out infinite;
+  }
+  
+  .glass {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .glass .layer {
+    position: relative;
+    width: 100px;
+    height: 150px;
+    margin: 1px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(30px);
+  }
+  
+  .glass .layer:nth-child(4n + 1) {
+    backdrop-filter: blur(10px);
+  }
+  
+  .glass .layer:nth-child(4n + 2) {
+    backdrop-filter: blur(50px);
+  }
+  
+  .glass .layer:nth-child(4n + 3) {
+    backdrop-filter: blur(30px);
+  }
+  
+  .glass .layer:nth-child(4n + 4) {
+    backdrop-filter: blur(20px);
+  }
+  
+  @keyframes animate {
+    0%,
+    100% {
+      transform: translatex(-200px);
+    }
+    50% {
+      transform: translatex(1200px);
+    }
+  }
+  
