@@ -21,11 +21,28 @@
   
   .glass .layer {
     position: relative;
-    width: 100px;
+    width: 60px;
     height: 150px;
     margin: 1px;
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.5);
     backdrop-filter: blur(30px);
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .glass .layer:hover {
+    opacity: 0;
+    transform: scale(1.1); /* Adjust the scale factor as needed */
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+    /* animation: rotate 1s linear infinite;   */
+  }
+  
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
   }
   
   .glass .layer:nth-child(4n + 1) {

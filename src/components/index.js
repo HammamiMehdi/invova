@@ -10,6 +10,7 @@ import Testimonials from "./Testimonials";
 import Hero from "./Hero";
 import BestServices from "./BestServices";
 import ClarityGlass from './ClarityGlass';
+import InfiniteLoopSlider from './InfinityLoopSlider';
 
 export {
   Navbar,
@@ -24,4 +25,5 @@ export {
   Hero,
   BestServices,
   ClarityGlass,
+  InfiniteLoopSlider
 };

@@ -5,7 +5,7 @@ import React, { useEffect, useRef } from 'react';
 import { useIntersection } from 'react-use';
 
 
-const Billing = () => (
+const   Billing = () => (
   
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
