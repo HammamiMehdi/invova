@@ -12,7 +12,9 @@ import {
   Hero,
   BestServices,
   ClarityGlass,
-  InfiniteLoopSlider
+  InfiniteLoopSlider,
+  TeamSection,
+  TypedText
 } from "./components";
 
 const App = () => (
@@ -42,6 +44,8 @@ const App = () => (
         <BestServices />
         <ClarityGlass />
         <InfiniteLoopSlider />
+        {/* <TypedText /> */}
+        <TeamSection />
         <Testimonials />
         
         <Clients />

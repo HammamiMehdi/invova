@@ -9,7 +9,7 @@
     border-radius: 50%;
     background: radial-gradient(#0067bc, #003366);
     box-shadow: 0 0 250px #0067bc;
-    animation: animate 15s ease-in-out infinite;
+    animation: animatee 15s ease-in-out infinite;
   }
   
   .glass {
@@ -36,7 +36,7 @@
     /* animation: rotate 1s linear infinite;   */
   }
   
-  @keyframes rotate {
+  @keyframes rotatee {
     0% {
       transform: rotate(0deg);
     }
@@ -61,7 +61,7 @@
     backdrop-filter: blur(20px);
   }
   
-  @keyframes animate {
+  @keyframes animatee {
     0%,
     100% {
       transform: translatex(-200px);

@@ -11,22 +11,16 @@ const ClarityGlass = () => {
         <div className="layer"></div>
         <div className="layer"></div>
         <div className="layer"></div>
-        {/* <div className="layer"></div>
         <div className="layer"></div>
         <div className="layer"></div>
         <div className="layer"></div>
         <div className="layer"></div>
         <div className="layer"></div>
-        <div className="layer"></div> 
         <div className="layer"></div>
-        <div className="layer"></div>
-        <div className="layer"></div>
-        <div className="layer"></div>
+       
         <div className="layer"></div>
         
-        <div className="layer"></div>
-        <div className="layer"></div>
-        <div className="layer"></div>*/}
+        
         <div className="layer"></div>
         <div className="layer"></div>
         <div className="layer"></div>

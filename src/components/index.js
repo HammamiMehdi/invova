@@ -11,7 +11,8 @@ import Hero from "./Hero";
 import BestServices from "./BestServices";
 import ClarityGlass from './ClarityGlass';
 import InfiniteLoopSlider from './InfinityLoopSlider';
-
+import TeamSection from './TeamSection';
+import TypedText from './TypedText';
 export {
   Navbar,
   Billing,
@@ -25,5 +26,7 @@ export {
   Hero,
   BestServices,
   ClarityGlass,
-  InfiniteLoopSlider
+  InfiniteLoopSlider,
+  TeamSection,
+  TypedText
 };
