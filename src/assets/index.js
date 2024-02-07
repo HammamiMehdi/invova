@@ -1,6 +1,6 @@
 import airbnb from "./airbnb.png";
 import bill from "./bill.png";
-import digitalisation from "./digitalisation.jpg";
+import digitalisation from "./digitalisation.png";
 import binance from "./binance.png";
 import card from "./card.png";
 import coinbase from "./coinbase.png";

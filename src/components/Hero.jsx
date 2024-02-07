@@ -2,17 +2,21 @@ import styles from "../style";
 import { discount, robot } from "../assets";
 import GetStarted from "./GetStarted";
 import React, {useState, useEffect} from 'react'
+import { motion } from 'framer-motion';
 
 
 const Hero = () => {
 
 const sliderContent = [
   'Digital transformation',
-  'Web Development',
-  'WordPress Development',
+  'Data visualization',
+  'Data scrapping ',
+  'Software Development',
+  'web Development',
+  'mobile Development',
   'App Development',
-  'Plugin Development',
-  'CRM Integrations'
+  'business Development',
+  'CRM Integrations',
 ];
 
 let sliderCounter = 0;
@@ -30,7 +34,7 @@ const slide = () => {
 
   for (let i = 0; i < sliderContent[sliderCounter].length; i++) {
     let letterDiv = document.createElement('div');
-    letterDiv.innerHTML = sliderContent[sliderCounter][i];
+    letterDiv.innerHTML = sliderContent[sliderCounter][i] ;
 
     if (letterDiv.innerHTML === ' ') {
       letterDiv.innerHTML = '&nbsp;';
@@ -65,7 +69,8 @@ useEffect(() => {
   
     
   return (
-    <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
+    <motion.section   initial={{ opacity: 0, x: -100 }}
+    animate={{ opacity: 1, x: 0 }} id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
       <div className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}>
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
@@ -107,7 +112,7 @@ useEffect(() => {
       <div className={`ss:hidden ${styles.flexCenter}`}>
         <GetStarted />
       </div>
-    </section>
+    </motion.section>
   );
 };
 

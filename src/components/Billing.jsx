@@ -7,6 +7,7 @@ import { useIntersection } from 'react-use';
 
 const   Billing = () => (
   
+  
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
     <img

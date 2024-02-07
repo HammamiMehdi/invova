@@ -2,7 +2,6 @@
 import styled, { keyframes } from 'styled-components';
 import { apple, bill, digitalisation, google } from "../assets";
 import styles, { layout } from "../style";
-import "../components/Styles/billing.css"; 
 
 
 const AppContainer = styled.div`

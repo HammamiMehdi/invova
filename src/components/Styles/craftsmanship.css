@@ -1,0 +1,87 @@
+.cardCraftsmanship {
+  max-width: 90%; /* Adjust the maximum width as needed */
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  background-color: #003366;
+  border-radius: 8px;
+  z-index: 1;
+  box-shadow: 0px 5px 5px #002346;
+  transition: 0.5s;
+}
+
+@media screen and (max-width: 768px) {
+  .cardCraftsmanship {
+    width: 90%; /* Adjust the width for smaller screens */
+    height: auto; /* Allow height to adjust according to content */
+    margin-bottom: 20px; /* Add margin to separate sections */
+  }
+}
+
+.cardCraftsmanship:hover {
+  transform: translateY(-7px);
+  box-shadow: 0px 10px 10px black;
+}
+
+.topCraftsmanship {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.circleCraftsmanship {
+  padding: 0 4px;
+}
+
+.circle2 {
+  display: inline-block;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  padding: 1px;
+  border-radius: 5px;
+}
+
+.red {
+  background-color: #ff605c;
+}
+
+.yellow {
+  background-color: #ffbd44;
+}
+
+.green {
+  background-color: #00ca4e;
+}
+
+.headerCraftsmanship {
+  margin: 5px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+#title2 {
+  color: white;
+  padding-left: 50px;
+  font-size: 15px;
+}
+
+.code-container {
+  text-align: center;
+}
+
+#code {
+  max-width: 90%; /* Adjust the maximum width as needed */
+  width: 560px; /* Adjust the width for smaller screens */
+  height: 350px; /* Adjust the height for smaller screens */
+  resize: none;
+  background-color: rgb(16, 14, 34);
+  border-radius: 5px;
+  border: none;
+  color: white;
+  padding: 10px;
+}
+
+#code:focus {
+  outline: none !important;
+}

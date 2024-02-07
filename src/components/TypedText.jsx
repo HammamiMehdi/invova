@@ -4,10 +4,11 @@ import './Styles/typedText.css'
 const TypedText = () => {
     const sliderContent = [
         'Web Development',
-        'WordPress Development',
+        'mobile Development',
         'App Development',
-        'Plugin Development',
-        'CRM Integrations'
+        'business Development',
+        'Data Scrapping',
+        'Data Visualization'
       ];
     
       let sliderCounter = 0;

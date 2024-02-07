@@ -1,6 +1,7 @@
 import styles from "../style";
 import { logo } from "../assets";
 import { footerLinks, socialMedia } from "../constants";
+import ScrollLine from "./ScrollLine";
 
 const Footer = () => (
   <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
@@ -58,6 +59,7 @@ const Footer = () => (
         ))}
       </div>
     </div>
+    <ScrollLine/>
   </section>
 );
 

@@ -1,0 +1,11 @@
+/* ScrollLine.css */
+.scroll-line {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 2px;
+    background-color: #fff; /* Change the color as per your design */
+    z-index: 999;
+    transition: width 0.3s ease-in-out;
+  }
+  

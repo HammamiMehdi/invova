@@ -1,6 +1,7 @@
 import React from 'react';
 import "../components/Styles/clarityGlass.css"; 
 import {  logo } from "../assets";
+import ScrollLine from "./ScrollLine";
 
 
 const ClarityGlass = () => {
@@ -30,7 +31,9 @@ const ClarityGlass = () => {
         <div className="layer"></div>
         <div className="layer"></div>
       </div>
+      <ScrollLine/>
     </div>
+    
   );
 }
 

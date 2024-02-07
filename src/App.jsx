@@ -14,7 +14,12 @@ import {
   ClarityGlass,
   InfiniteLoopSlider,
   TeamSection,
-  TypedText
+  Craftsmanship,
+  VerticalNavbar,
+  FollowUs,
+  TypedText,
+  VerticalLine,
+  
 } from "./components";
 
 const App = () => (
@@ -33,6 +38,7 @@ const App = () => (
 
     <div className={`bg-full ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
+        {/* <VerticalNavbar/> */}
         <Stats />
         <ClarityGlass />
         <Business />
@@ -41,8 +47,10 @@ const App = () => (
         <ClarityGlass />
         <CardDeal />
         <ClarityGlass />
+        <Craftsmanship />
         <BestServices />
         <ClarityGlass />
+        <FollowUs />
         <InfiniteLoopSlider />
         {/* <TypedText /> */}
         <TeamSection />

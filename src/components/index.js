@@ -13,6 +13,12 @@ import ClarityGlass from './ClarityGlass';
 import InfiniteLoopSlider from './InfinityLoopSlider';
 import TeamSection from './TeamSection';
 import TypedText from './TypedText';
+import ScrollLine from './ScrollLine';
+import VerticalLine from './VerticalLine';
+import Craftsmanship from './Craftsmanship';
+import VerticalNavbar from './VerticalNavbar';
+import FollowUs from './FollowUs';
+
 export {
   Navbar,
   Billing,
@@ -28,5 +34,10 @@ export {
   ClarityGlass,
   InfiniteLoopSlider,
   TeamSection,
-  TypedText
+  TypedText,
+  ScrollLine,
+  VerticalLine,
+  Craftsmanship,
+  VerticalNavbar,
+  FollowUs
 };

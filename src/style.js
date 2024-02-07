@@ -14,10 +14,13 @@ const styles = {
 
   marginX: "sm:mx-16 mx-6",
   marginY: "sm:my-16 my-6",
+  verticalLine: "w-2 bg-white absolute left-1/2 transform -translate-x-1/2 transition-all duration-300",
+  animateLine: "h-full opacity-100",
+
 };
 
 export const layout = {
-  section: `flex md:flex-row flex-col ${styles.paddingY}`,
+  section: `flex md:flex-row flex-col ${styles.paddingY}  backdrop-filter: blur(10px); `,
   sectionReverse: `flex md:flex-row flex-col-reverse ${styles.paddingY}`,
 
   sectionImgReverse: `flex-1 flex ${styles.flexCenter} md:mr-10 mr-0 md:mt-0 mt-10 relative`,
