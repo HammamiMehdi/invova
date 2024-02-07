@@ -97,6 +97,32 @@ const TeamSection = () => {
     <li><img src={logo}/></li>
     <li><img src={logo}/></li>
   </ul>
+
+  <div className="cube-container">
+  <div className="cube">
+    <div className="face front">BI </div>
+    <div className="face back"> WEB </div>
+    <div className="face right">Mobile </div>
+    <div className="face left">Graphic </div>
+    <div className="face top">Analytics </div>
+    <div class="face bottom">DATA </div>
+  </div>
+</div>
+
+  <div className="text-white text-center mb-12">
+      <h2 className="text-5xl font-bold">Our Experts</h2>
+      <p>Our expert team comprises dedicated professionals with extensive expertise in various domains including Business Intelligence (BI), Mobile App Development, Web Development, Data Analysis, and Graphic Design. With a diverse skill set and a passion for innovation, our team collaborates seamlessly to deliver exceptional solutions tailored to meet the unique needs of our clients. </p>
+    </div>
+    <div className="cube-container">
+  <div className="cube">
+    <div className="face front">BI </div>
+    <div className="face back"> WEB </div>
+    <div className="face right">Mobile </div>
+    <div className="face left">Graphic </div>
+    <div className="face top">Sécurity </div>
+    <div class="face bottom">DATA </div>
+  </div>
+</div>
 </section>
       );
 }

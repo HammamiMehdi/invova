@@ -143,20 +143,7 @@ const FollowUs = () => (
 </div>
     </div>
 
-    <div className="text-white text-center mb-12 mt-12">
-    <h2 class="text-xl font-bold text-right mt-5">Our Expertise </h2>
-    </div>
-
-    <div className="cube-container">
-  <div className="cube">
-    <div className="face front">BI </div>
-    <div className="face back"> WEB</div>
-    <div className="face right">Mobile</div>
-    <div className="face left">Graphic</div>
-    <div className="face top">Sécurity</div>
-    <div class="face bottom">DATA</div>
-  </div>
-</div>
+   
 
   </section>
 
